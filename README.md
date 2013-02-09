@@ -34,6 +34,8 @@ Requires two configuration parameters in `config.php`:
 
   The URL prefix your staff uses to view tickets.
 
+Example:
+
     $this->PluginConfig['Kayako'] = array(
         'KayakoDB' => 'your_kayako_db_name',
         'URL' => 'http://support.yoursite.com/staff'
@@ -56,4 +58,4 @@ Usage
 
 Example ticket information display:
 
-    <Azazel> Ticket ABC-123456: Error on site [Julie Smith / jsmith@exampleclient.com] [Created 2013-02-09 08:55:17] [Updated 2013-02-09 09:12:41] [1 replies] http://support.youriste.com/staff/?_m=tickets&_a=viewticket&ticketid=98765
+    <Azazel> Ticket ABC-123456: Error on site [Julie Smith / jsmith@exampleclient.com] [Created 2013-02-09 08:55:17] [Updated 2013-02-09 09:12:41] [1 replies] http://support.yoursite.com/staff/?_m=tickets&_a=viewticket&ticketid=98765
